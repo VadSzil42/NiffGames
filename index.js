@@ -47,7 +47,7 @@ app.get("/e/*", async (req, res, next) => {
     const baseUrls = {
       "/e/1/": "https://raw.githubusercontent.com/VadSzil42/InterstellarAssetPack1/fixy/",
       "/e/2/": "https://raw.githubusercontent.com/VadSzil42/InterstellarAssetPack2/main/",
-      "/e/3/": "https://raw.githubusercontent.com/VadSzil42/InterstellarAssetPack3/master/",
+      "/e/3/": "https://raw.githubusercontent.com/VadSzil42/InterstellarAssetPack3/main/",
     };
 
     let reqTarget;
