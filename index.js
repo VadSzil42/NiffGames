@@ -48,6 +48,7 @@ app.get("/e/*", async (req, res, next) => {
       "/e/1/": "https://raw.githubusercontent.com/VadSzil42/NiffAssets/main/gamepack1/",
       "/e/2/": "https://raw.githubusercontent.com/VadSzil42/NiffAssets/main/webretro/",
       "/e/3/": "https://raw.githubusercontent.com/VadSzil42/NiffAssets/main/gamepack2",
+      "/e/4/": "https://raw.githubusercontent.com/VadSzil42/NiffAssets/main/customgames/",
     };
 
     let reqTarget;
